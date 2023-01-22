@@ -53,16 +53,16 @@ function AboutMe() {
                         <Divider orientation="left">SKILL SET</Divider>
                     </div>
                     <div style={{ padding: '2em' }}>
-                        <Tag color="magenta">JavaScript</Tag>
-                        <Tag color="red">ReactJS</Tag>
-                        <Tag color="volcano">Redux</Tag>
-                        <Tag color="geekblue">HTML</Tag>
-                        <Tag color="gold">CSS</Tag>
-                        <Tag color="cyan">MaterialUI</Tag>
-                        <Tag color="magenta">SemanticUI</Tag>
-                        <Tag color="purple">ExpressJS</Tag>
-                        <Tag color="geekblue">NodeJS</Tag>
-                        <Tag color="volcano">JQuery</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="magenta">JavaScript</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="red">ReactJS</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="volcano">Redux</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="geekblue">HTML</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="gold">CSS</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="cyan">MaterialUI</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="magenta">SemanticUI</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="purple">ExpressJS</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="geekblue">NodeJS</Tag>
+                        <Tag style={{ marginBottom: '6px' }} color="volcano">JQuery</Tag>
                     </div>
                 </Col>
             </Row>
@@ -73,7 +73,7 @@ function AboutMe() {
                     </div>
                     <Row gutter={16}>
                         <Col className="gutter-row" xl={6} lg={6} md={6} sm={24} xs={24}>
-                            <Divider orientation="left"><CalendarOutlined /> August 2019 to Current</Divider>
+                            <Divider orientation="left"><CalendarOutlined /> August 2019 to Present</Divider>
                         </Col>
                         <Col className="gutter-row" xl={18} lg={18} md={18} sm={24} xs={24}>
                             <Typography style={{ marginTop: '15px', marginBottom: '5px', fontSize: '16px' }}>Reverie Language Technologies Ltd. Bengaluru, <LaptopOutlined /> Sr. Software Engineer</Typography>
@@ -81,10 +81,10 @@ function AboutMe() {
                                 Role and Responsibilities
                             </div>
                             <Timeline>
-                                <Timeline.Item color="#08979c">Coordinate with a team of UX and UI developers to build quality web applications with cross-browser compatibility</Timeline.Item>
-                                <Timeline.Item color="#08979c">Analyze existing web applications and identify opportunities to enhance functionality and improve the user experience</Timeline.Item>
-                                <Timeline.Item color="#08979c">Support the development of front-end systems using HTML, JavaScript, and React</Timeline.Item>
-                                <Timeline.Item color="#08979c">Attend meetings with UI development teams, project managers, and customers to ensure alignment with project specifications</Timeline.Item>
+                                <Timeline.Item color="grey">Working as React lead developer to the end to end design of the application functionality</Timeline.Item>
+                                <Timeline.Item color="grey">Coordinate with lead to design the application based on the client requirements and delegate work to meet deadlines</Timeline.Item>
+                                <Timeline.Item color="grey">Support the development of front-end systems using CSS, HTML, JavaScript, React and Redux</Timeline.Item>
+                                <Timeline.Item color="grey">Attend meetings with development teams, project managers, and customers to ensure alignment with project specifications</Timeline.Item>
                             </Timeline>
                         </Col>
                     </Row>
@@ -116,10 +116,10 @@ function AboutMe() {
                                 Role and Responsibilities
                             </div>
                             <Timeline>
-                                <Timeline.Item color="#08979c">Responsible for coding of the functional specification and project design</Timeline.Item>
-                                <Timeline.Item color="#08979c">Analyze existing web applications and identify opportunities to enhance functionality and improve the user experience</Timeline.Item>
-                                <Timeline.Item color="#08979c">Support the development of front-end systems using HTML, JavaScript, and React</Timeline.Item>
-                                <Timeline.Item color="#08979c">Attend meetings with UI development teams, project managers, and customers to ensure alignment with project specifications</Timeline.Item>
+                                <Timeline.Item color="grey">Integrating designs and wireframes within the application code.</Timeline.Item>
+                                <Timeline.Item color="grey">Leverage the inbuilt React toolkit for creating frontend features.</Timeline.Item>
+                                <Timeline.Item color="grey">Enhance application performance with constant monitoring.</Timeline.Item>
+                                <Timeline.Item color="grey">Monitor interaction of users and convert them into insightful information.</Timeline.Item>
                             </Timeline>
                         </Col>
                     </Row>
@@ -148,20 +148,20 @@ function AboutMe() {
                         <Col className="gutter-row" xl={12} lg={12} md={12} sm={24} xs={24}>
                             <Divider orientation="left" orientationMargin="0">Education Details</Divider>
                             <Timeline>
-                                <Timeline.Item color="#08979c">MCA 2015 passedout (Tezpur Central University, Sonitpur, Assam, India )</Timeline.Item>
-                                <Timeline.Item color="#08979c">BSc 2011 passedout (Gauhati Unversity, Guwahati, Assam, India)</Timeline.Item>
-                                <Timeline.Item color="#08979c">12th CBSE BOARD 2008 passedout (JNV Morigaon, Assam)</Timeline.Item>
-                                <Timeline.Item color="#08979c">10th CBSE BOARD 2006 passedout (JNV Morigaon, Assam)</Timeline.Item>
+                                <Timeline.Item color="grey">MCA 2015 passedout (Tezpur Central University, Sonitpur, Assam, India )</Timeline.Item>
+                                <Timeline.Item color="grey">BSc 2011 passedout (Gauhati Unversity, Guwahati, Assam, India)</Timeline.Item>
+                                <Timeline.Item color="grey">12th CBSE BOARD 2008 passedout (JNV Morigaon, Assam)</Timeline.Item>
+                                <Timeline.Item color="grey">10th CBSE BOARD 2006 passedout (JNV Morigaon, Assam)</Timeline.Item>
                             </Timeline>
                         </Col>
                         <Col className="gutter-row" xl={12} lg={12} md={12} sm={24} xs={24}>
                             <Divider orientation="left" orientationMargin="0">Contact Details</Divider>
                             <Space direction="vertical">
-                                <Text><MailOutlined /> khanmushfikur@gmail.com</Text>
-                                <Text type="secondary"><PhoneOutlined /> +91 7348825987</Text>
-                                <Text type="success"><LinkedinOutlined /> https://www.linkedin.com/in/mushfikur-khan-901418120</Text>
-                                <Text type="primary"><SkypeOutlined /> https://join.skype.com/invite/pgZBzCZSs1zp</Text>
-                                <Text><GithubOutlined /> https://github.com/mushfikur310</Text>
+                                <Text><MailOutlined style={{ color: '#74b9ff' }} /> khanmushfikur@gmail.com</Text>
+                                <Text><PhoneOutlined style={{ color: '#74b9ff' }} /> +91 7348825987</Text>
+                                <Text color='warning'><LinkedinOutlined style={{ color: '#74b9ff' }} /> https://www.linkedin.com/in/mushfikur-khan-901418120</Text>
+                                <Text type="primary"><SkypeOutlined style={{ color: '#74b9ff' }} /> https://join.skype.com/invite/pgZBzCZSs1zp</Text>
+                                <Text><GithubOutlined style={{ color: '#74b9ff' }} /> https://github.com/mushfikur310</Text>
                             </Space>
                         </Col>
                     </Row>
