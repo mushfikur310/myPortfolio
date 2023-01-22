@@ -72,11 +72,11 @@ function AboutMe() {
                         <Divider orientation="left">WORK EXPERIENCE</Divider>
                     </div>
                     <Row gutter={16}>
-                        <Col className="gutter-row" xl={6}>
+                        <Col className="gutter-row" xl={6} lg={6} md={6} sm={24} xs={24}>
                             <Divider orientation="left"><CalendarOutlined /> August 2019 to Current</Divider>
                         </Col>
-                        <Col className="gutter-row" xl={18}>
-                            <Divider orientation="left" orientationMargin="0">Reverie Language Technologies Ltd. Bengaluru, <LaptopOutlined /> Sr. Software Engineer</Divider>
+                        <Col className="gutter-row" xl={18} lg={18} md={18} sm={24} xs={24}>
+                            <Typography style={{ marginTop: '15px', marginBottom: '5px', fontSize: '16px' }}>Reverie Language Technologies Ltd. Bengaluru, <LaptopOutlined /> Sr. Software Engineer</Typography>
                             <div style={{ marginBottom: '20px' }}>
                                 Role and Responsibilities
                             </div>
@@ -89,10 +89,10 @@ function AboutMe() {
                         </Col>
                     </Row>
                     <Row gutter={16}>
-                        <Col className="gutter-row" xl={6}>
+                        <Col className="gutter-row" xl={6} lg={6} md={6} sm={24} xs={24}>
                             <Divider orientation="left"><FormOutlined /> Projects</Divider>
                         </Col>
-                        <Col className="gutter-row" xl={18}>
+                        <Col className="gutter-row" xl={18} lg={18} md={18} sm={24} xs={24}>
                             <Divider orientation="left" orientationMargin="0">Prabandhak—  AI Translation Management System</Divider>
                             <div style={{ marginBottom: '20px' }}>
                                 About
@@ -107,11 +107,11 @@ function AboutMe() {
                 <Divider dashed />
                 <Col className="gutter-row" xl={24} lg={24} md={24} sm={24} xs={24}>
                     <Row gutter={16}>
-                        <Col className="gutter-row" xl={6}>
+                        <Col className="gutter-row" xl={6} lg={6} md={6} sm={24} xs={24}>
                             <Divider orientation="left"><CalendarOutlined /> May 2017 to June 2019</Divider>
                         </Col>
-                        <Col className="gutter-row" xl={18}>
-                            <Divider orientation="left" orientationMargin="0">Tripborn (Sun-Alpha Green Technologies), Bengaluru — <LaptopOutlined /> Software Engineer</Divider>
+                        <Col className="gutter-row" xl={18} lg={18} md={18} sm={24} xs={24}>
+                            <Typography style={{ marginTop: '15px', marginBottom: '5px', fontSize: '16px' }}>Tripborn (Sun-Alpha Green Technologies), Bengaluru — <LaptopOutlined /> Software Engineer</Typography>
                             <div style={{ marginBottom: '20px' }}>
                                 Role and Responsibilities
                             </div>
@@ -124,10 +124,10 @@ function AboutMe() {
                         </Col>
                     </Row>
                     <Row gutter={16}>
-                        <Col className="gutter-row" xl={6}>
+                        <Col className="gutter-row" xl={6} lg={6} md={6} sm={24} xs={24}>
                             <Divider orientation="left"><FormOutlined /> Projects</Divider>
                         </Col>
-                        <Col className="gutter-row" xl={18}>
+                        <Col className="gutter-row" xl={18} lg={18} md={18} sm={24} xs={24}>
                             <Divider orientation="left" orientationMargin="0">Holiday Packages (a B2C Application)</Divider>
                             <div style={{ marginBottom: '20px' }}>
                                 About
@@ -145,7 +145,7 @@ function AboutMe() {
                         <Divider orientation="left">PERSONAL DETAILS</Divider>
                     </div>
                     <Row gutter={16}>
-                        <Col className="gutter-row" xl={12}>
+                        <Col className="gutter-row" xl={12} lg={12} md={12} sm={24} xs={24}>
                             <Divider orientation="left" orientationMargin="0">Education Details</Divider>
                             <Timeline>
                                 <Timeline.Item color="#08979c">MCA 2015 passedout (Tezpur Central University, Sonitpur, Assam, India )</Timeline.Item>
@@ -154,7 +154,7 @@ function AboutMe() {
                                 <Timeline.Item color="#08979c">10th CBSE BOARD 2006 passedout (JNV Morigaon, Assam)</Timeline.Item>
                             </Timeline>
                         </Col>
-                        <Col className="gutter-row" xl={12}>
+                        <Col className="gutter-row" xl={12} lg={12} md={12} sm={24} xs={24}>
                             <Divider orientation="left" orientationMargin="0">Contact Details</Divider>
                             <Space direction="vertical">
                                 <Text><MailOutlined /> khanmushfikur@gmail.com</Text>

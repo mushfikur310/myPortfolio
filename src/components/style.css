@@ -1,19 +1,20 @@
 .container {
     margin: auto;
-			width: 70%;
-			background: #fff;
-			padding: 10px;
-			min-height: 100vh;
-  }
-  
-  .centered-element {
+    width: 70%;
+    background: #fff;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+.centered-element {
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-.line-1{
+}
+
+.line-1 {
     width: 24em;
     margin: 0 auto;
     border-right: .15em solid #c41d7f6e;
@@ -26,24 +27,37 @@
 }
 
 /* Animation */
-.anim-typewriter{
-  animation: typewriter 3.5s steps(24) 1s 1 normal both,
-             blinkTextCursor 500ms steps(24) infinite normal;
+.anim-typewriter {
+    animation: typewriter 3.5s steps(24) 1s 1 normal both,
+        blinkTextCursor 500ms steps(24) infinite normal;
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 12em;}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 12em;
+    }
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: #c41d7f6e;}
-  to{border-right-color: transparent;}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #c41d7f6e;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
 
 .skillTitle {
     margin-top: 2em;
 }
 
-.workPeriod, .employer {
+.workPeriod,
+.employer {
     padding-top: 2em;
 }
 
@@ -52,60 +66,18 @@
     margin-bottom: 1em;
 }
 
-/* :root {
-    --color-text: #FFF;
-    --color-front: rgb(144, 13, 173);
-    --color-back: rgb(255, 51, 207);
-  }
-  
-.tag {
-    position: relative;
-    letter-spacing: 1px;
-    color: #FFF;
-    display: inline-block;
-    border-radius: 6px;
-    clip-path: polygon(20px 0px, 100% 0px, 100% 100%, 0% 100%, 0% 20px);
-    background: var(--color-front);
-    padding: 16px 40px;
-    margin: 0 8px;
-    font-size: 18px;
-    color: '#ff7979';
-    transition: clip-path 500ms;
-  }
-  
-  .tag:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    background: var(--color-back);
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); 
-    border-radius: 0 0 6px 0;
-    transition: transform 500ms;
-  }
-  
-  .tag:hover {
-    clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0% 100%, 0% 0px);
-  }
-  
-  .tag:hover:after {
-    transform: translate(-100%, -100%);
-  } */
-
-  .tags {
+.tags {
     list-style: none;
     margin: 0;
-    overflow: hidden; 
+    overflow: hidden;
     padding: 0;
-  }
-  
-  .tags li {
-    float: left; 
-  }
-  
-  .tag {
+}
+
+.tags li {
+    float: left;
+}
+
+.tag {
     background: #eee;
     border-radius: 3px 0 0 3px;
     color: #999;
@@ -117,9 +89,9 @@
     margin: 0 10px 10px 0;
     text-decoration: none;
     -webkit-transition: color 0.2s;
-  }
-  
-  .tag::before {
+}
+
+.tag::before {
     background: #fff;
     border-radius: 10px;
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
@@ -129,9 +101,9 @@
     position: absolute;
     width: 6px;
     top: 10px;
-  }
-  
-  .tag::after {
+}
+
+.tag::after {
     background: #fff;
     border-bottom: 13px solid transparent;
     border-left: 10px solid #eee;
@@ -140,13 +112,26 @@
     position: absolute;
     right: 0;
     top: 0;
-  }
-  
-  .tag:hover {
+}
+
+.tag:hover {
     background-color: #999;
     color: #fff
-  }
-  
-  .tag:hover::after {
-     border-left-color: #999; 
+}
+
+.tag:hover::after {
+    border-left-color: #999;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        padding: 20px;
+    }
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+    .orgs {
+        display: none;
+    }
   }

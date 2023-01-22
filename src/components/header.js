@@ -5,7 +5,7 @@ import './style.css';
 const headerStyle = {
     height: '300px',
     margin: 'auto',
-    width: '35%',
+    width: '100%',
     padding: '105px 0',
     textAlign: 'center'
 };
@@ -18,7 +18,7 @@ const profileText = {
 
 function PortfolioHeader() {
     return (
-        <div style={headerStyle}>
+        <div className='header' style={headerStyle}>
             <Typography.Title level={1} style={textStyle}>
                 MUSHFIKUR RAHMAN KHAN
             </Typography.Title>
