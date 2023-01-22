@@ -148,10 +148,10 @@ function AboutMe() {
                         <Col className="gutter-row" xl={12} lg={12} md={12} sm={24} xs={24}>
                             <Divider orientation="left" orientationMargin="0">Education Details</Divider>
                             <Timeline>
-                                <Timeline.Item color="grey">MCA 2015 passedout (Tezpur Central University, Sonitpur, Assam, India )</Timeline.Item>
-                                <Timeline.Item color="grey">BSc 2011 passedout (Gauhati Unversity, Guwahati, Assam, India)</Timeline.Item>
-                                <Timeline.Item color="grey">12th CBSE BOARD 2008 passedout (JNV Morigaon, Assam)</Timeline.Item>
-                                <Timeline.Item color="grey">10th CBSE BOARD 2006 passedout (JNV Morigaon, Assam)</Timeline.Item>
+                                <Timeline.Item color="grey">MCA - 2015 (Tezpur Central University, Assam, India )</Timeline.Item>
+                                <Timeline.Item color="grey">BSc - 2011 (Gauhati Unversity, Guwahati, Assam, India)</Timeline.Item>
+                                <Timeline.Item color="grey">12th CBSE BOARD 2008 (JNV Morigaon, Assam)</Timeline.Item>
+                                <Timeline.Item color="grey">10th CBSE BOARD 2006 (JNV Morigaon, Assam)</Timeline.Item>
                             </Timeline>
                         </Col>
                         <Col className="gutter-row" xl={12} lg={12} md={12} sm={24} xs={24}>
